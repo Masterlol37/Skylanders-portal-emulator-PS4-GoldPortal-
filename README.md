@@ -55,7 +55,7 @@ python pc_app/goldportal_pc.py
   - The first save of a file in a session keeps the original as `.dump.bak`. Later saves leave that `.bak` alone, so it is always the pre-session version.
   - A figure is only saved when two reads a second apart match, so it is never saved halfway through the game writing to it.
   - Figures placed some other way (web page, command line) are matched to their file by name, if exactly one file in the folder tree has that name.
-- **Save asâ€¦** writes a slot's current data to a file of your choice.
+- **Save¦** writes a slot's current data to a file of your choice.
 - **Dark mode** toggles the theme. It, the folder, the IP and the autosave setting are remembered in `~/.goldportal.json`.
 - Use figures the game supports. For example, Swap Force only accepts Spyro's Adventure, Giants and Swap Force figures.
 
@@ -137,7 +137,7 @@ pc_app/
 - The portal protocol was worked out by recording real portals with this plugin's sniff mode. RPCS3's and Dolphin's Skylanders portal emulation were a useful reference for the command set.
 
 ## Disclaimer
-
+pls if there is any error dont blame me instant i wanted to push it out fast so everyone can test it. i only got the europe games so feel free to reach out if you have ideas or see something that should not be like that.
 This is an unofficial fan project for preserving and playing figures you own. It is not affiliated with or endorsed by Activision, Toys for Bob, Vicarious Visions or Sony Interactive Entertainment. "Skylanders" and "Portal of Power" are trademarks of their respective owners. It contains no game code, figure data or copyrighted assets. Use at your own risk.
 
 ## License
