@@ -36,7 +36,9 @@ Get `goldportal.prx` and the PC app from the [Releases](../../releases) page, or
    [CUSA05158]
    /data/GoldHEN/plugins/goldportal.prx
    ```
-3. Turn on plugins in GoldHEN and start the game. You'll see a "Goldportal 1.15 loading" notification. Unplug any real portal.
+   Others are not tested report them as issues if they work or not.
+   
+4. Turn on plugins in GoldHEN and start the game. You'll see a "Goldportal 1.15 loading" notification. Unplug any real portal.
 
 ## Use the PC app
 
@@ -77,9 +79,9 @@ The plugin also writes changed figures to `/data/goldportal/backup_<name>` on th
 |---|---|
 | `log_<TITLE>.txt`, `log_<TITLE>_prev.txt` | Log of the current and previous run of each game (also at `http://<PS4-IP>:8085/api/log` and `/api/log?prev`). |
 | `portal_id_<TITLE>.txt` | Override the portal model, e.g. `02 1B`. |
-| `sniff_<TITLE>` (empty file) | **Sniff mode** for that game: no virtual portal; a real portal's traffic is logged and its speaker audio is saved to `audio_<TITLE>.raw`. |
-| `nohook` (empty file) | Safe mode: web server only, no hooks. |
-| `trace` (empty file) | Extra-verbose logging. |
+| (dev)`sniff_<TITLE>` (empty file) | **Sniff mode** for that game: no virtual portal; a real portal's traffic is logged and its speaker audio is saved to `audio_<TITLE>.raw`. |
+| (dev)`nohook` (empty file) | Safe mode: web server only, no hooks. |
+| (dev)`trace` (empty file) | Extra-verbose logging. |
 | `skip_<TITLE>.txt` | Hooks the crash guard disabled after a crash while hooking (one name per line; delete to retry). |
 
 `/api/status` reports the plugin version, the game's title ID, the number of hooks, and whether the game opened and activated the portal.
