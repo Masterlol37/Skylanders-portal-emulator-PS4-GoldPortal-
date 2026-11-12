@@ -14,7 +14,7 @@ PC app --HTTP :8085--> goldportal.prx (inside the game) --virtual USB--> Skyland
                                                        --speaker audio--> DualShock 4 speaker
 ```
 
-You can also skip the PC app: open `http://<PS4-IP>:8085/` in any browser (phone, tablet or PC).
+[WIP not working atm] You can also skip the PC app: open `http://<PS4-IP>:8085/` in any browser (phone, tablet or PC).
 
 > **No figure data is included.** Use dumps of figures you own (1024-byte MIFARE Classic 1K dumps, the same format RPCS3 and Dolphin use).
 
