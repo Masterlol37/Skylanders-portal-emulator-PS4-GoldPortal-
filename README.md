@@ -132,7 +132,7 @@ pc_app/
 ```
 
 ## Credits
-
+- Developed with the help of [Claude](https://claude.ai) (Anthropic), which wrote much of the plugin and PC app code together with the author.
 - [OpenOrbis PS4 Toolchain](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain) and the [GoldHEN Plugins SDK](https://github.com/GoldHEN/GoldHEN_Plugins_SDK) (its HDE64 decoder is used for the inline hooks).
 - The portal protocol was worked out by recording real portals with this plugin's sniff mode. RPCS3's and Dolphin's Skylanders portal emulation were a useful reference for the command set.
 
